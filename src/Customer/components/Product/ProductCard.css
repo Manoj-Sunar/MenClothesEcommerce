@@ -1,0 +1,14 @@
+.productCard .text-part{
+    transition: transform .3s ease-out;
+}
+
+.productCard:hover .text-part{
+    transform: translateY(-1rem);
+}
+.productCard:hover .text-part .des{
+    color: #DE7921;
+}
+
+.productCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
